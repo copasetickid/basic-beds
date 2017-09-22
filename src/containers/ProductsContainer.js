@@ -7,8 +7,6 @@ class ProductsContainer extends Component {
     this.state = {
       db: this.props.db
     };
-    console.log(this.state);
-    console.log(props)
   }
 
   render() {
@@ -18,7 +16,6 @@ class ProductsContainer extends Component {
       </div>
     )
   }
-
 }
 
 export default ProductsContainer;

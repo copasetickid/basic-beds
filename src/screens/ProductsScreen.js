@@ -5,10 +5,6 @@ import ProductsContainer from '../containers/ProductsContainer.js';
 class ProductsScreen extends Component {
   constructor(props) {
     super(props);
-    // this.state = {
-    //   db: db
-    // };
-    console.log(this.state)
   }
 
   render() {
