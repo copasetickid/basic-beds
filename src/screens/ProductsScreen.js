@@ -9,14 +9,13 @@ class ProductsScreen extends Component {
     this.state = {
       database: db
     };
-    console.log(this.state);
   }
 
   render() {
     return(
       <div>
         <ProductsContainer db={this.state.database} />
-        <CartScreen />
+        <CartScreen db={this.state.database}/>
       </div>
     )
   }
